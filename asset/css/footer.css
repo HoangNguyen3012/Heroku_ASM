@@ -1,0 +1,55 @@
+footer .get__started {
+    background-color: #097ffa;
+    color: white;
+}
+
+footer .get__started .btn__get__started {
+    border: solid 2px white;
+    color: white;
+    font-size: 18px;
+    width: fit-content;
+    transition: all ease-in-out 0.2s;
+}
+
+footer .get__started .btn__get__started:hover {
+    color: #097ffa;
+    background-color: white;
+}
+
+footer .footer__list {
+    background-color: #33354F;
+}
+
+footer .footer__list b {
+    color: white;
+    padding-right: 10px;
+}
+
+footer .footer__list .list__item ul {
+    list-style: none;
+    padding: 0px;
+}
+
+footer .footer__list .list__item ul li a {
+    /* text-decoration: none; */
+    font-size: small;
+    color: #8a8ca2;
+}
+
+footer .footer__contact {
+    border-top: solid 1px #8a8ca2;
+    padding-top: 10px;
+    color: #8a8ca2;
+}
+
+footer .footer__contact .social__media .fa-stack{
+    font-size: medium;
+}
+
+footer .footer__contact .contact__right {
+    font-size: small;
+}
+
+footer .footer__contact .contact__right i {
+    color: white;
+}

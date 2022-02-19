@@ -1,0 +1,135 @@
+body {
+    background: #097ffa linear-gradient(40deg,#c0242e 0,#097ffa 100%) fixed !important;
+    background-size: cover;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: 10px;
+}
+
+.form-register {
+    width: 700px;
+    max-width: 100%;
+    padding: 32px;
+    border-radius: 15px;
+    box-shadow: 0 0 50px rgb(0 0 0 / 20%);
+}
+
+#registration .sub-heading {
+    height: 0;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#registration .sub-heading span {
+    display: inline-block;
+    position: relative;
+    padding: 0 17px;
+    top: -15px;
+    font-size: 16px;
+    color: #058;
+    background-color: #fff;
+}
+
+.form-register .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    /* padding: 10px 10px 10px 30px; */
+    font-size: 16px;
+}
+
+#registration .prepend-icon .field {
+    -webkit-appearance: none;
+    padding-left: 36px;
+}
+
+#registration .field, #registration .form-control {
+    position: relative;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    display: -moz-inline-stack;
+    display: inline-block;
+    color: #626262;
+    outline: 0;
+    background: #fff;
+    height: 36px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+#registration .prepend-icon .field-icon {
+    top: 0;
+    z-index: 4;
+    width: 42px;
+    height: 36px;
+    color: inherit;
+    line-height: 36px;
+    position: absolute;
+    text-align: center;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    pointer-events: none;
+}
+
+#registration label {
+    font-weight: 300;
+    color: #666;
+    font-size: 13px;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+
+.panel-danger {
+    border-color: #ebccd1;
+}
+
+.panel-danger>.panel-heading {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.panel-danger .panel-heading .panel-title {
+    color: #a94442;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+
+.panel-body {
+    padding: 10px 15px;
+}
+
+.noclient {
+    margin: 15px -24px -32px;
+    padding: 16px 32px;
+    background: #ecebe7;
+    border-radius: 0 0 3px 3px;
+}

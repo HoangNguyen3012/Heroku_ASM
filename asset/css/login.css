@@ -1,0 +1,21 @@
+body {
+    background: #097ffa linear-gradient(40deg,#c0242e 0,#097ffa 100%) fixed !important;
+    background-size: cover;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: 10px;
+}
+
+.login__form {
+    width: 366px;
+    box-shadow: 0 0 50px rgb(0 0 0 / 40%);
+    border-radius: 15px 15px 0px 0px;
+}
+
+footer, .login__form {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

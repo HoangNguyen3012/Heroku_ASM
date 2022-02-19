@@ -1,0 +1,45 @@
+.hero__section {
+    background-image: url('/asset/img/weareopen.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+    padding-block: 80px;
+    padding-inline: max(10px, 1.5vw);
+}
+@media screen and (max-width: 767px) {
+    .hero__section {
+        background: none;
+        padding-block: 0px;
+    }
+    .hero__section .hero__left {
+        background: radial-gradient(circle at bottom center,#019DDB,#004DBF 75%) #004DBC;
+    }
+    .hero__section .hero__right {
+    background: radial-gradient(circle at bottom center,#33354F,#27283c 75%) #27283c;
+    }
+}
+
+.content__section .card__icon {
+    font-size: 72px;
+    margin: 0px;
+}
+
+.content__section .card__bottom .bottom__text {
+    background-color: #FC0;
+    font-size: small;
+    width: min(75%, 200px);
+    margin: auto;
+    opacity: 0;
+    transition: opacity 0.8s;
+    font-weight: bold;
+}
+
+.content__section .card:hover .card__bottom .bottom__text {
+    opacity: 1;
+}
+
+.content__section .card button {
+    width: min(250px, 90%);
+    margin: auto;
+}
